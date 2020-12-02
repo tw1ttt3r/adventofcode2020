@@ -30,4 +30,4 @@ In this list, the two entries that sum to 2020 are 1721 and 299. Multiplying the
 
 Of course, your expense report is much larger. Find the two entries that sum to 2020; what do you get if you multiply them together?
 
-[Page](https://adventofcode.com/)
+[Page](https://adventofcode.com/2020/day/1)
