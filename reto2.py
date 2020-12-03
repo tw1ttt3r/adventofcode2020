@@ -8,11 +8,7 @@ for x in input:
     level = x[0].split('-')
     param = x[1]
     password = x[2]
-    if (password.count(param) >= int(level[0])) and (password.count(param) <= int(level[1])):
+    if (password[int(level[0]) - 1] == param and password[int(level[1]) - 1] != param) or (password[int(level[0]) - 1] != param and password[int(level[1]) - 1] == param):
         valid += 1
-        print('count: {}'.format(password.count(param)))
-        print('level: {}'.format(level))
-        print('param: {}'.format(param))
-        print('password: {}'.format(password))
 
 print('valid: {}'.format(valid))
